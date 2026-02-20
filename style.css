@@ -5,3 +5,11 @@ body {
 h1 {
   color: #E0E0E0;
 }
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
