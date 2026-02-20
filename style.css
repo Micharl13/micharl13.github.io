@@ -1,9 +1,10 @@
-body {
-  background-color: #0B0E14;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-h1 {
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
   color: #E0E0E0;
+  background-color: #0B0E14;
 }
 
 .center-container {
