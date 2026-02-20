@@ -14,3 +14,16 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
+footer {
+  background-color: var(--gray);
+  text-align: center;
+  padding: 1rem;
+  color: var(--white);
+  font-size: 0.9rem;
+  text-shadow: 0 0 5px #00ff55;
+}
+
+footer p {
+  margin-top: 1rem;
+}
