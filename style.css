@@ -7,6 +7,26 @@ body {
   background-color: #0B0E14;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 2rem;
+  background-color: rgba(10, 10, 10, 0.45);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo img { 
+height: 50px;
+width: auto;
+}
+
 .center-container {
   display: flex;
   justify-content: center;
